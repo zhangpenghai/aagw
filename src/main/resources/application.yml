@@ -4,13 +4,22 @@ server:
 
 spring:
   redis:
-    host: 127.0.0.1
+    host: 192.168.95.129
     port: 6379
+    password:
+    database: 0
+    timeout: 3000
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.95.129:3306/aagw_line?useunicode=true&characterEncoding=utf8
+    url: jdbc:mysql://192.168.95.129:3306/aagw_line?useunicode=true&characterEncoding=utf8&serverTimezone=GMT
     username: root
     password: Admin@123
+  mvc:
+    view:
+      prefix: html/
+      suffix: .html
 mybatis:
-  type-aliases-package: com.aagw
+  type-aliases-package: com.aagw.dao
   mapper-locations: classpath:mapper/*.xml
+
+

@@ -13,8 +13,7 @@ import java.io.Serializable;
 @Data
 public class Result implements Serializable {
 
-    // 响应业务状态
-    private Integer status;
+
 
     // 响应消息
     private String msg;
@@ -25,4 +24,6 @@ public class Result implements Serializable {
     private String ok;    // 不使用
     //响应状态码
     private Integer code;
+    //token
+    private String token;
 }
