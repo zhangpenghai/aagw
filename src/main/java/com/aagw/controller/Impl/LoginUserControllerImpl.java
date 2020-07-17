@@ -6,6 +6,7 @@ import com.aagw.service.LoginUserService;
 import com.aagw.status.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
@@ -23,13 +24,13 @@ public class LoginUserControllerImpl implements LoginUserController {
     @Autowired
     private LoginUserService loginUserService;
     @Autowired
-    private RedisTemplate redisTemplate;
+    private StringRedisTemplate redisTemplate;
     @RequestMapping("/login")
     /***
     * @description 
     * @Param 用户登录 
     * @author zhangpenghai 
-    * @date 2020/7/16 17:26 
+    * @date 2020/7/17 9:38 
     * @return com.aagw.entity.Result  
     */
     @Override
