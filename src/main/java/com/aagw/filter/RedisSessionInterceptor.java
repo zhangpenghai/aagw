@@ -49,13 +49,14 @@ public class RedisSessionInterceptor  implements HandlerInterceptor {
         return false;
     }
 
-    private void response401(HttpServletResponse response)
+    private void response401(HttpServletResponse response )
     {
         response.setCharacterEncoding("UTF-8");
         response.setContentType("application/json; charset=utf-8");
 
         try
         {
+            response.sendRedirect("./static/html/index.html");
             Result result = new Result();
             result.setCode(StatusCode.NEED_LOGIN);
             result.setMsg("用户未登录！");

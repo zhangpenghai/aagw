@@ -14,10 +14,7 @@ spring:
     url: jdbc:mysql://192.168.95.129:3306/aagw_line?useunicode=true&characterEncoding=utf8&serverTimezone=GMT
     username: root
     password: Admin@123
-  mvc:
-    view:
-      prefix: html/
-      suffix: .html
+
 mybatis:
   type-aliases-package: com.aagw.dao
   mapper-locations: classpath:mapper/*.xml
