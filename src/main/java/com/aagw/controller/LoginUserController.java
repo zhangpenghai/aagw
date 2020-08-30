@@ -8,4 +8,5 @@ import javax.servlet.http.HttpServletRequest;
 public interface LoginUserController {
 
     Result UserLogin(HttpServletRequest request, Uuser user);
+    public Result findAll();
 }

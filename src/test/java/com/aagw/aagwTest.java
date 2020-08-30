@@ -1,6 +1,8 @@
 package com.aagw;
 
+import com.aagw.controller.LoginUserController;
 import com.aagw.dao.UserDao;
+import com.aagw.entity.Result;
 import com.aagw.entity.Uuser;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import lombok.extern.slf4j.Slf4j;
@@ -20,9 +22,11 @@ import java.util.List;
 public class aagwTest {
     @Autowired
     UserDao userDao;
+    @Autowired
+    LoginUserController controller;
     @Test
     public void test1(){
-        List<Uuser> user = userDao.selectList(new QueryWrapper<Uuser>());
-        log.info(user.toString());
+        Result all = controller.findAll();
+        log.info(all.toString());
     }
 }

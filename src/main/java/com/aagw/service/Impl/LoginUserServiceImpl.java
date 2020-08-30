@@ -24,8 +24,8 @@ public class LoginUserServiceImpl implements LoginUserService {
     @Override
     public Result UserLogin(Uuser user) {
         QueryWrapper<Uuser> wrapper=new QueryWrapper<>();
-      /*  wrapper.eq("user_name",user.getUserName()).
-                eq("password",user.getPassword());*/
+        wrapper.eq("user_name",user.getUserName()).
+                eq("password",user.getPassword());
         user = userDao.selectOne(wrapper);
         Result result = new Result();
         if (user!=null){

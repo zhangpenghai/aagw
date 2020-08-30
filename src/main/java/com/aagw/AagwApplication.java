@@ -18,7 +18,7 @@ import org.springframework.context.annotation.Configuration;
         @ComponentScan("com.aagw.service")
 })
 @Slf4j
-@Configuration(value = "*.xml")
+
 public class AagwApplication {
     //protected static final Logger logger = LoggerFactory.getLogger(StudyBootDemoApplication.class);
     public static void main(String[] args) {

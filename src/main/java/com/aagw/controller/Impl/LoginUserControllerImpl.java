@@ -35,7 +35,7 @@ public class LoginUserControllerImpl implements LoginUserController {
     */
     @Override
     public Result UserLogin(HttpServletRequest request, Uuser user) {
-
+        System.out.println("访问了");
         Result result = loginUserService.UserLogin(user);
         if (result.getCode()==200){
             HttpSession session = request.getSession();
@@ -52,8 +52,9 @@ public class LoginUserControllerImpl implements LoginUserController {
     * @date 2020/7/16 17:26 
     * @return com.aagw.entity.Result  
     */
+    @Override
     @RequestMapping("findAll")
-    public Result findAllUuser(){
+    public Result findAll(){
         Result result=new Result();
         result.setCode(StatusCode.SUCCESS);
         result.setData(loginUserService.findAllUuser());
