@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f16083a-215d-49ae-90fb-08fc2b074318" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +11,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -80,6 +87,14 @@
       <updated>1596991151837</updated>
       <workItem from="1596991156213" duration="407000" />
     </task>
+    <task id="LOCAL-00001" summary="更换数据库 更换持久层框架为mybatisPlus">
+      <created>1598800834783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598800834783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,17 +105,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="更换数据库 更换持久层框架为mybatisPlus" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="262" y="2" key="CommitChangelistDialog2" timestamp="1596991749791">
+    <state x="262" y="2" key="CommitChangelistDialog2" timestamp="1598800833906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="262" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596991749791" />
+    <state x="262" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598800833906" />
     <state x="611" y="134" key="RollbackChangesDialog" timestamp="1598800694665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="611" y="134" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598800694665" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598800791447">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598801402962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598800791447" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598801402962" />
   </component>
 </project>
