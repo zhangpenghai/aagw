@@ -5,6 +5,7 @@ import com.aagw.entity.Result;
 import com.aagw.entity.Uuser;
 import com.aagw.service.LoginUserService;
 import com.aagw.status.StatusCode;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +23,10 @@ public class LoginUserServiceImpl implements LoginUserService {
     private UserDao userDao;
     @Override
     public Result UserLogin(Uuser user) {
-        user = userDao.UserLogin(user);
+        QueryWrapper<Uuser> wrapper=new QueryWrapper<>();
+      /*  wrapper.eq("user_name",user.getUserName()).
+                eq("password",user.getPassword());*/
+        user = userDao.selectOne(wrapper);
         Result result = new Result();
         if (user!=null){
             result.setCode(StatusCode.SUCCESS);
@@ -38,6 +42,6 @@ public class LoginUserServiceImpl implements LoginUserService {
 
     @Override
     public List<Uuser> findAllUuser() {
-        return userDao.findAllUuser();
+        return userDao.selectList(new QueryWrapper<>());
     }
 }

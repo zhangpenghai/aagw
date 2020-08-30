@@ -2,13 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f16083a-215d-49ae-90fb-08fc2b074318" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aagw/aagwTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aagw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aagw.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aagw/AagwApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aagw/AagwApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aagw/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aagw/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aagw/entity/Uuser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aagw/entity/Uuser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aagw/service/Impl/LoginUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aagw/service/Impl/LoginUserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aagw/aagw/AagwApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aagw/AagwApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aagw/AagwApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aagw/controller/Impl/LoginUserControllerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aagw/controller/Impl/LoginUserControllerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aagw/entity/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aagw/entity/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aagw/entity/Uuser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aagw/entity/Uuser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aagw/filter/RedisSessionInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aagw/filter/RedisSessionInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aagw/service/Impl/LoginUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aagw/service/Impl/LoginUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aagw/service/TokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aagw/service/TokenService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aagw/aagwTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aagw/aagwTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -52,9 +79,28 @@
     <property name="last_opened_file_path" value="F:/develop/Git/repository/repo1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.aagwTest.test1">
+    <configuration name="aagwTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aagw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aagw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aagw" />
+      <option name="MAIN_CLASS_NAME" value="com.aagw.aagwTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AagwApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="aagw" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aagw.AagwApplication" />
@@ -62,6 +108,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.aagwTest.test1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -86,6 +137,9 @@
       <option name="presentableId" value="Default" />
       <updated>1596991151837</updated>
       <workItem from="1596991156213" duration="407000" />
+      <workItem from="1598805278118" duration="2730000" />
+      <workItem from="1598808025079" duration="1496000" />
+      <workItem from="1598809537847" duration="3654000" />
     </task>
     <task id="LOCAL-00001" summary="更换数据库 更换持久层框架为mybatisPlus">
       <created>1598800834783</created>
@@ -94,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598800834783</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更换数据库地址">
+      <created>1598801432521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598801432521</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,20 +163,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更换数据库 更换持久层框架为mybatisPlus" />
-    <option name="LAST_COMMIT_MESSAGE" value="更换数据库 更换持久层框架为mybatisPlus" />
+    <MESSAGE value="更换数据库地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="更换数据库地址" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="262" y="2" key="CommitChangelistDialog2" timestamp="1598800833906">
+    <state x="262" y="2" key="CommitChangelistDialog2" timestamp="1598801431600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="262" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598800833906" />
+    <state x="262" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598801431600" />
+    <state width="1493" height="275" key="GridCell.Tab.0.bottom" timestamp="1598813195877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="275" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598813195877" />
+    <state width="1493" height="275" key="GridCell.Tab.0.center" timestamp="1598813195877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="275" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598813195877" />
+    <state width="1493" height="275" key="GridCell.Tab.0.left" timestamp="1598813195876">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="275" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598813195876" />
+    <state width="1493" height="275" key="GridCell.Tab.0.right" timestamp="1598813195877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="275" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598813195877" />
     <state x="611" y="134" key="RollbackChangesDialog" timestamp="1598800694665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="611" y="134" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598800694665" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598801402962">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1598811674578">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598801402962" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598811674578" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598801437004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598801437004" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1598809616456">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598809616456" />
   </component>
 </project>
