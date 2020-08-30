@@ -4,6 +4,7 @@ import com.aagw.entity.Result;
 import com.aagw.entity.Uuser;
 import com.aagw.service.LoginUserService;
 import com.aagw.status.StatusCode;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -18,6 +19,7 @@ import javax.servlet.http.HttpSession;
  * @Author : zhangpenghai
  * @Date: 2020-07-16 12:35
  */
+@Slf4j
 @RestController
 @RequestMapping("/user")
 public class LoginUserControllerImpl implements LoginUserController {
@@ -58,6 +60,7 @@ public class LoginUserControllerImpl implements LoginUserController {
         Result result=new Result();
         result.setCode(StatusCode.SUCCESS);
         result.setData(loginUserService.findAllUuser());
+        log.info(result.toString());
         return result;
     }
 }
